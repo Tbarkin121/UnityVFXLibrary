@@ -14,5 +14,7 @@ public class TestMove : MonoBehaviour
     void Update()
     {
         transform.Translate(new Vector3(0,0,speed));
+        if(transform.position[2] < -30)
+            transform.Translate(new Vector3(0,0,30));
     }
 }
