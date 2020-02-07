@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bcf384b154398e341b6b29969c078198, type: 3}
   m_Name: MotionBlur
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   m_AdvancedMode: 0
   quality:
     m_OverrideState: 1
@@ -232,24 +232,24 @@ MonoBehaviour:
   m_AdvancedMode: 0
   quality:
     m_OverrideState: 1
-    m_Value: 2
+    m_Value: 1
   threshold:
     m_OverrideState: 0
-    m_Value: 0
+    m_Value: 11
     min: 0
   intensity:
     m_OverrideState: 1
-    m_Value: 0.65
+    m_Value: 0.58
     min: 0
     max: 1
   scatter:
     m_OverrideState: 1
-    m_Value: 0.55
+    m_Value: 0
     min: 0
     max: 1
   tint:
     m_OverrideState: 0
-    m_Value: {r: 1, g: 1, b: 1, a: 1}
+    m_Value: {r: 0.9528302, g: 0, b: 0, a: 1}
     hdr: 0
     showAlpha: 0
     showEyeDropper: 1
@@ -308,7 +308,7 @@ MonoBehaviour:
   m_AdvancedMode: 0
   mode:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 1
   meteringMode:
     m_OverrideState: 0
     m_Value: 2
@@ -475,26 +475,26 @@ MonoBehaviour:
     m_Value: 2
   toeStrength:
     m_OverrideState: 1
-    m_Value: 0.34
+    m_Value: 0.5
     min: 0
     max: 1
   toeLength:
     m_OverrideState: 1
-    m_Value: 0.61
+    m_Value: 0.65
     min: 0
     max: 1
   shoulderStrength:
     m_OverrideState: 1
-    m_Value: 0.28
+    m_Value: 0.35
     min: 0
     max: 1
   shoulderLength:
     m_OverrideState: 1
-    m_Value: 0.75
+    m_Value: 0.12
     min: 0
   shoulderAngle:
     m_OverrideState: 1
-    m_Value: 0.94
+    m_Value: 0.39
     min: 0
     max: 1
   gamma:
@@ -521,7 +521,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ddcec8a8eb2d684d833ac8f5d26aebd, type: 3}
   m_Name: HDShadowSettings
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   m_AdvancedMode: 0
   maxShadowDistance:
     m_OverrideState: 1
